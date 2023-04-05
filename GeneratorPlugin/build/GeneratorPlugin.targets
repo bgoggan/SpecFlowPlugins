@@ -1,0 +1,7 @@
+﻿<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_GeneratorPluginFramework Condition=" '$(MSBuildRuntimeType)' == 'Core'">netcoreapp3.1</_GeneratorPluginFramework>
+    <_GeneratorPluginFramework Condition=" '$(MSBuildRuntimeType)' != 'Core'">net471</_GeneratorPluginFramework>
+    <_GeneratorPluginPath>$(MSBuildThisFileDirectory)\$(_GeneratorPluginFramework)\GeneratorPlugin.SpecFlowPlugin.dll</_GeneratorPluginPath>
+  </PropertyGroup>
+</Project>

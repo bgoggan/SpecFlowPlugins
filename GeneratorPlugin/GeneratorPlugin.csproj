@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net471;netcoreapp3.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NuspecFile>$(MSBuildThisFileDirectory)Plugin.nuspec</NuspecFile>
+    <AssemblyName>GeneratorPlugin.SpecFlowPlugin</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SpecFlow.CustomPlugin" Version="3.9.74" />
+  </ItemGroup>
+
+</Project>
